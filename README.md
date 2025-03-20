@@ -33,6 +33,16 @@ Check implemented API docs:
 - [http://localhost:8000/docs](http://localhost:8000/docs)  
 - [http://localhost:8000/docs#/default/create_dispute_disputes__post](http://localhost:8000/docs#/default/create_dispute_disputes__post)  
 
+
+## results:
+1. Sample query:
+   ![Sample query](https://github.com/user-attachments/assets/cd722bc9-6a8e-4458-a1ac-7b49845a0752)
+2. Sample_response_using_CHATGPT_API
+   ![Sample_response_using_CHATGPT_API](https://github.com/user-attachments/assets/9d27a087-fedf-4ea4-906f-e42bc15d916b)
+3. Storing in DB for future improvements in AIML models
+   ![Storing in DB for future improvements in AIML models](https://github.com/user-attachments/assets/882a7c45-9634-48e0-8003-f254a49d23d4)
+
+
 ---
 
 ## Workflow:
@@ -140,8 +150,8 @@ Sample input:
 ---
 
 ## Further Tasks:
-✅ Error handling based on LLM API failures.  
-✅ Async processing for faster classification and recommendations.  
-✅ More complex rule-based classification.  
+Error handling based on LLM API failures.  
+Async processing for faster classification and recommendations.  
+More complex rule-based classification.  
 
 ---
