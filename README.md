@@ -33,6 +33,17 @@ Check implemented API docs:
 - [http://localhost:8000/docs](http://localhost:8000/docs)  
 - [http://localhost:8000/docs#/default/create_dispute_disputes__post](http://localhost:8000/docs#/default/create_dispute_disputes__post)  
 
+## questions: 
+1. If you had to use an Al-assisted or low-code tool, how would you implement 
+this with minimal custom code?-
+   This implmentation has both functionality :
+      - Rule based system for the getting recommendation and assignment
+      - Also the  Al-assisted, in this case using chatgpt API to generate the recommendation.
+b. How would you improve this over time with Al-assisted recommendations?
+   - Since we are storing this in DB we can add column for how much time it took for dispute to solve this will be acts as ground truth parameter for Al-assisted recommendations.
+   - We can have the rating after each dispute solving  for ML model to tranin on historical as well as present data.
+   - Also we can have boolean field in DB from assigned team to check if we classifyed the team correctly or not?
+
 
 ## results:
 1. Sample query:
